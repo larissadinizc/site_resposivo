@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pousada Exemplo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#acomodacoes">Acomodações</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="home">
+      <h1>Bem-vindo à Pousada Amor da Serra</h1>
+      <p>Aqui você encontra conforto, tranquilidade e acomodações aconchegantes.</p>
+      <button>Reserve agora</button>
+    </section>
+    <section id="acomodacoes">
+      <h2>Nossas Acomodações</h2>
+      <ul>
+        <li>
+          <h3>Quarto Standard</h3>
+          <img src="quarto_standard.jpg" alt="Quarto Standard">
+          <p>Apartamento com cama de casal, TV, ar-condicionado, frigobar e banheiro privativo.</p>
+        </li>
+        <li>
+          <h3>Suíte Luxo</h3>
+          <img src="suite_luxo.jpg" alt="Suíte Luxo">
+          <p>Suíte ampla com cama de casal, TV, ar-condicionado, frigobar, banheira de hidromassagem e vista para uma bela paisagem.</p>
+        </li>
+      </ul>
+    </section>
+    <section id="servicos">
+      <h2>Nossos Serviços</h2>
+      <ul>
+        <li>
+          <h3>Café da Manhã</h3>
+          <p>Oferecemos um delicioso café da manhã com opções típicas nordestinas.</p>
+        </li>
+        <li>
+          <h3>Piscina</h3>
+          <p>Temos uma piscina para você se refrescar e relaxar.</p>
+        </li>
+        <li>
+          <h3>Estacionamento</h3>
+          <p>Oferecemos estacionamento gratuito para os nossos hóspedes.</p>
+        </li>
+      </ul>
+    </section>
+    <section id="pet-friendly">
+        <h2>Pet-Friendly</h2>
+        <p>Nós adoramos animais e permitimos que você traga o seu bichinho de estimação!</p>
+        <img src="cachorro.jpg" alt="Cachorro feliz na pousada">
+      </section>
+        <section id="contato">
+      <h2>Entre em Contato</h2>
+      <form>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" required></textarea>
+        <button type="submit">Enviar</button>
